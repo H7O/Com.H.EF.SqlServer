@@ -1,21 +1,51 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+
     <TargetFramework>net5.0</TargetFramework>
+    <Version>5.0.0.0</Version>
     <Authors>Hussein Al Bayati</Authors>
     <Description>Helpful extensions to Microsoft.EntityFrameworkCore.SqlServer package designed to work alongside Com.H.EF.Relational API</Description>
-    <Copyright>Hussein Al Bayati</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/H7O/Com.H.EF.SqlServer</PackageProjectUrl>
     <RepositoryUrl>https://github.com/H7O/Com.H.EF.SqlServer</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>EntityFramework,SqlServer</PackageTags>
+    <PackageReleaseNotes>Maintenance release</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>initial release</PackageReleaseNotes>
-    <Version>5.0.0.1</Version>
-    <AssemblyName>Com.H.Ef.SqlServer</AssemblyName>
-    <RootNamespace>Com.H.Ef.SqlServer</RootNamespace>
+    <Copyright>Hussein Al Bayati</Copyright>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <PackageId>Com.H.EF.SqlServer</PackageId>
+    <Product>Com.H.EF.SqlServer</Product>
+    <PackageIcon>128x128.jpg</PackageIcon>
+    <PackageReadmeFile>nuget.md</PackageReadmeFile>
+    <PackageTags>EntityFramework,SqlServer</PackageTags>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <AssemblyName>Com.H.EF.SqlServer</AssemblyName>
+    <RootNamespace>Com.H.EF.SqlServer</RootNamespace>
+    <SignAssembly>False</SignAssembly>
+
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="128x128.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="128x128.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\128x128.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\nuget.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
