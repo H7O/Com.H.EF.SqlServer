@@ -6,17 +6,19 @@
     <Description>Helpful extensions to Microsoft.EntityFrameworkCore.SqlServer package designed to work alongside Com.H.EF.Relational API</Description>
     <Copyright>Hussein Al Bayati</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/H7O/Com.H.EF.Relational</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/H7O/Com.H.EF.Relational</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/H7O/Com.H.EF.SqlServer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/H7O/Com.H.EF.SqlServer</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>EntityFramework,SqlServer</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>initial release</PackageReleaseNotes>
-    <Version>0.1.0</Version>
+    <Version>5.0.0.1</Version>
+    <AssemblyName>Com.H.Ef.SqlServer</AssemblyName>
+    <RootNamespace>Com.H.Ef.SqlServer</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
   </ItemGroup>
 
 </Project>

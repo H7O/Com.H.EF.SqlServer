@@ -1,9 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32002.261
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.H.EF.SqlServer", "Com.H.EF.SqlServer\Com.H.EF.SqlServer.csproj", "{C0F380F2-6E9B-4BB3-A5A8-BC5AC8A01CA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net5", "Com.H.EF.SqlServer\Net5.csproj", "{C0F380F2-6E9B-4BB3-A5A8-BC5AC8A01CA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B9921D3-2CAC-4127-9AFB-BFF208BF15BA}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		nuget.md = nuget.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net7", "Net7\Net7.csproj", "{D6877208-C799-4527-B659-F94E8C2F9FF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,10 @@ Global
 		{C0F380F2-6E9B-4BB3-A5A8-BC5AC8A01CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0F380F2-6E9B-4BB3-A5A8-BC5AC8A01CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0F380F2-6E9B-4BB3-A5A8-BC5AC8A01CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6877208-C799-4527-B659-F94E8C2F9FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6877208-C799-4527-B659-F94E8C2F9FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6877208-C799-4527-B659-F94E8C2F9FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6877208-C799-4527-B659-F94E8C2F9FF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
