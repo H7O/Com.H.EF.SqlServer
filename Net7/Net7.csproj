@@ -7,7 +7,7 @@
     <AssemblyName>Com.H.EF.SqlServer</AssemblyName>
     <RootNamespace>Com.H.SqlServer</RootNamespace>
     <ApplicationIcon>128x128.ico</ApplicationIcon>
-    <Version>7.0.0.0</Version>
+    <Version>7.0.0.1</Version>
     <Authors>Hussein Al Bayati</Authors>
     <Description>Helpful extensions to Microsoft.EntityFrameworkCore.SqlServer package designed to work alongside Com.H.EF.Relational API.</Description>
     <Copyright>Hussein Al Bayati</Copyright>
@@ -40,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
   </ItemGroup>
 
 
